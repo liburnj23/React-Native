@@ -5,10 +5,22 @@ import Mainscreen from './screen/Mainscreen';
 export default function App() {
     return (
   <View>
-    <Text>Hello World</Text>
+    <Text>Personal Profile</Text>
     <Text>(message)</Text>
   </View>
+  const students = [
+    {name: 'Liburn' , surname: 'Jahaj' , age:'14'},
+
+ <FlatList>
+  data{students}
+  keyExctractor
+ </FlatList>
+ 
+      
+    
+  
+];
             
         
     )
-}
+}s
